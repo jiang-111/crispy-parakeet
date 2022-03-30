@@ -1,97 +1,237 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T05:14:05.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="LNMWKhTnZrORNNM8ER9Q" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T05:53:55.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="aVoWhik8L7w4TyBrpPzK" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="264" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-100" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="138" y="1520" width="470" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-75" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="910" width="470" height="520" as="geometry" />
+        </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-32" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="600" width="400" height="270" as="geometry" />
+          <mxGeometry x="140" y="640" width="470" height="270" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="450" width="400" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-1" value="wA = b&lt;br&gt;w: 因子集的权重分布&lt;br&gt;b: 归一化的向量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-2" value="s = bc.T&lt;br&gt;c: 每个等级的风险评定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="470" width="470" height="170" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-4" target="gypdQs_53JEYXS1wAj3A-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-4" value="每个案件的风险矩阵&lt;br&gt;A1, A2, …, Au" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="151" y="460" width="140" height="60" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-4" value="每个案件的风险矩阵&lt;br&gt;A1, A2, …, Au" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="191" y="490" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-5" target="gypdQs_53JEYXS1wAj3A-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-5" value="得分向量C" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="141" y="550" width="130" height="40" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-5" target="gypdQs_53JEYXS1wAj3A-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="610" />
+              <mxPoint x="110" y="1575" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-6" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;风险矩阵A(m,n)：&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;表示线索库里面所有相关线索的敏感度分布矩阵&lt;br&gt;U: 风险类别向量&lt;br&gt;得分向量C(n,1)：每个风险等级的得分&lt;br&gt;X(m,1)：x单个案件风险分类得分向量&lt;br&gt;R(m,u)：风险分类得分矩阵，将所有案件的X拼起来(X1, X2, …, Xu)，归一化后获得，为训练集&lt;br&gt;R&#39;(u,u)：模糊相似矩阵，表示Xi和Xj的相似程度&lt;br&gt;R&#39;&#39;(u,u)：模糊等价矩阵，通过R’数学运算得出&lt;br&gt;Y=(Y1, Y2, …, Yn)：X上的最优分类，通过聚类得出&lt;br&gt;Ci：U去除某个风险类别Ui获得的风险类别&lt;br&gt;Ri’：Ci对应的从R导出的新训练集&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="140" width="280" height="180" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-5" value="得分向量&lt;br&gt;C" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="191" y="585" width="119" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-6" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;风险矩阵A(m,n)：&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;表示线索库里面所有相关线索的敏感度分布矩阵&lt;br&gt;U: 风险类别向量&lt;br&gt;得分向量C(n,1)：每个风险等级的得分&lt;br&gt;X(m,1)：x单个案件风险分类得分向量&lt;br&gt;R(m,u)：风险分类得分矩阵，将所有案件的X拼起来(X1, X2, …, Xu)，归一化后获得，为训练集&lt;br&gt;R&#39;(u,u)：模糊相似矩阵，表示Xi和Xj的相似程度&lt;br&gt;R&#39;&#39;(u,u)：模糊等价矩阵，通过R’数学运算得出&lt;br&gt;Y=(Y1, Y2, …, Yn)：X上的最优分类，通过聚类得出&lt;br&gt;Ci：U去除某个风险类别Ui获得的风险类别&lt;br&gt;Ri’：Ci对应的从R导出的新训练集&lt;br&gt;Ei：Ri&#39;重新聚类获得的最优分类&lt;br&gt;W：风险权值向量&lt;br&gt;S：某一案件的风险得分&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="140" width="280" height="230" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-8" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;#34;helvetica&amp;#34; ; text-align: center ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;m：风险类别&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;#34;helvetica&amp;#34; ; text-align: center ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;#34;helvetica&amp;#34; ; text-align: center ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;n：每类风险里面的分级&lt;br&gt;u：案件个数&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="80" width="280" height="60" as="geometry" />
+          <mxGeometry x="140" y="80" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-9" target="gypdQs_53JEYXS1wAj3A-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-9" value="计算风险分类得分矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="331" y="510" width="80" height="40" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-9" value="计算风险分类得分矩阵" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="343" y="535" width="108" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-12" value="案件：待评估风险等级的一类事件&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;线索：留置中所有的相关内容&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="20" width="280" height="60" as="geometry" />
+          <mxGeometry x="140" y="20" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-16" value="训练集获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="460" y="570" width="70" height="30" as="geometry" />
+          <mxGeometry x="540" y="610" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-20" target="gypdQs_53JEYXS1wAj3A-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="600" />
-              <mxPoint x="196" y="600" />
+              <mxPoint x="530" y="640" />
+              <mxPoint x="236" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-20" value="R" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="515" width="70" height="30" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-20" value="风险得分矩阵&lt;br&gt;R" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="535" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-23" target="gypdQs_53JEYXS1wAj3A-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-23" value="计算模糊相似矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="141" y="621" width="109" height="50" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-23" value="计算模糊相似矩阵" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="181" y="660" width="109" height="51" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-24" target="gypdQs_53JEYXS1wAj3A-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-24" value="模糊相似矩阵R‘" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="319" y="622" width="111" height="48" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-24" value="模糊相似矩阵&lt;br&gt;R‘" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="359" y="662" width="111" height="48" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-26" target="gypdQs_53JEYXS1wAj3A-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-26" value="计算模糊等价矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="711" width="110" height="50" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-26" value="计算模糊等价矩阵" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="751" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-27" target="gypdQs_53JEYXS1wAj3A-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-27" value="模糊等价矩阵R‘‘" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="319" y="710" width="111" height="51" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-27" value="模糊等价矩阵&lt;br&gt;R‘‘" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="359" y="750" width="111" height="51" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-30" target="gypdQs_53JEYXS1wAj3A-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-30" value="分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="810" width="109" height="50" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-30" value="分类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="850" width="109" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gypdQs_53JEYXS1wAj3A-33" value="模糊聚类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="840" width="60" height="30" as="geometry" />
+          <mxGeometry x="550" y="880" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gypdQs_53JEYXS1wAj3A-42" value="最优分类Y" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="316" y="810" width="110" height="50" as="geometry" />
+        <mxCell id="gypdQs_53JEYXS1wAj3A-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-42" target="gypdQs_53JEYXS1wAj3A-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="930" />
+              <mxPoint x="234" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-42" target="gypdQs_53JEYXS1wAj3A-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="875" />
+              <mxPoint x="510" y="1175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-42" value="最优分类Y" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="356" y="850" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-44" target="gypdQs_53JEYXS1wAj3A-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-44" value="剔除某一风险类别的数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="179" y="950" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-45" target="gypdQs_53JEYXS1wAj3A-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-45" value="重新聚类" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="178" y="1040" width="111" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-51" target="gypdQs_53JEYXS1wAj3A-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="401" y="1120" />
+              <mxPoint x="235" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-51" value="新的&lt;br&gt;最优分类Ei" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="1040" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-52" target="gypdQs_53JEYXS1wAj3A-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-52" value="新的风险得分&lt;br&gt;矩阵Ri‘" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="356" y="950" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-57" target="gypdQs_53JEYXS1wAj3A-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-57" value="计算对该类别依赖程度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1150" width="112.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-63" target="gypdQs_53JEYXS1wAj3A-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="1284" />
+              <mxPoint x="160" y="975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-66" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gypdQs_53JEYXS1wAj3A-65">
+          <mxGeometry x="-0.832" y="-4" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-63" value="所有风险类别已经&lt;br&gt;计算完成？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="166.25" y="1249" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-67" target="gypdQs_53JEYXS1wAj3A-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="416" y="1330" />
+              <mxPoint x="228" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-67" value="计算风险权值向量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="359" y="1259" width="113" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="gypdQs_53JEYXS1wAj3A-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305.25" y="1284" as="sourcePoint" />
+            <mxPoint x="358" y="1284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-70" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="gypdQs_53JEYXS1wAj3A-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-72" target="gypdQs_53JEYXS1wAj3A-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="392" y="1395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-72" target="gypdQs_53JEYXS1wAj3A-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-72" value="风险权值向量&lt;br&gt;W" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="178" y="1370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-76" value="自学习权重分配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="1400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-77" target="gypdQs_53JEYXS1wAj3A-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-77" value="某一案件&lt;br&gt;风险矩阵&lt;br&gt;A" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="177" y="1550" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-80" target="gypdQs_53JEYXS1wAj3A-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-80" value="计算风险得分" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="323.5" y="1550" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-81" value="风险得分S" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="1550" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-85" value="风险得分计算" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="518" y="1600" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gypdQs_53JEYXS1wAj3A-88" target="gypdQs_53JEYXS1wAj3A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-88" value="开始" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="342" y="410" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gypdQs_53JEYXS1wAj3A-92" value="结束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="343" y="1450" width="98" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
