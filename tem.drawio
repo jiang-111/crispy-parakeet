@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-05-29T03:16:24.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="eDOgFgorRAnaTVx5ojc9" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-29T03:16:58.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="NOeATFVh4k6b8njtgnu2" version="18.1.3" type="github">
   <diagram id="PVdCfdHXLEt_9WwVZcfN" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="waUtbsq5y6apSech4ZY3-2" value="clue" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="waUtbsq5y6apSech4ZY3-2" value="clue" style="swimlane;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="200" y="230" width="140" height="270" as="geometry">
             <mxRectangle x="200" y="230" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
@@ -12,7 +12,7 @@
         <mxCell id="waUtbsq5y6apSech4ZY3-6" value="clueId {PK}&lt;br&gt;rank&lt;br&gt;&lt;div style=&quot;&quot;&gt;title&lt;/div&gt;&lt;div style=&quot;&quot;&gt;accuserPhoneHash&lt;/div&gt;&lt;div style=&quot;&quot;&gt;beAccuseId&lt;/div&gt;&lt;div style=&quot;&quot;&gt;type&lt;/div&gt;&lt;div style=&quot;&quot;&gt;content&lt;/div&gt;&lt;div style=&quot;&quot;&gt;startTime&lt;/div&gt;&lt;div style=&quot;&quot;&gt;endTime&lt;/div&gt;&lt;div style=&quot;&quot;&gt;status&lt;/div&gt;&lt;div style=&quot;&quot;&gt;result&lt;/div&gt;&lt;div style=&quot;&quot;&gt;staff_id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;vertificationCode&lt;/div&gt;&lt;div style=&quot;&quot;&gt;notes&lt;/div&gt;&lt;div style=&quot;&quot;&gt;address&lt;/div&gt;&lt;div style=&quot;&quot;&gt;signUserId&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="waUtbsq5y6apSech4ZY3-2" vertex="1">
           <mxGeometry x="10" y="30" width="120" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="waUtbsq5y6apSech4ZY3-5" value="file" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="waUtbsq5y6apSech4ZY3-5" value="file" style="swimlane;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="470" y="430" width="140" height="70" as="geometry">
             <mxRectangle x="470" y="430" width="50" height="23" as="alternateBounds" />
           </mxGeometry>
@@ -20,7 +20,7 @@
         <mxCell id="waUtbsq5y6apSech4ZY3-9" value="fileId {PK}&lt;br&gt;clueId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="waUtbsq5y6apSech4ZY3-5" vertex="1">
           <mxGeometry x="10" y="30" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="waUtbsq5y6apSech4ZY3-3" value="beAccused" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="waUtbsq5y6apSech4ZY3-3" value="beAccused" style="swimlane;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="470" y="230" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="waUtbsq5y6apSech4ZY3-8" value="&lt;span style=&quot;&quot;&gt;beAccusedId {PK}&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;name&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;level&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;area&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;workUnit&lt;br&gt;duty&lt;br&gt;accusedTimes&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="waUtbsq5y6apSech4ZY3-3" vertex="1">
